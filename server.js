@@ -18,7 +18,7 @@ var port     = process.env.PORT || 3001; // set our port
 
 // DATABASE SETUP
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://node:node@novus.modulusmongo.net:27017/Iganiq8o'); // connect to our database
+mongoose.connect('mongodb://bonsai:bonsai@ds155695.mlab.com:55695/bonsai'); // connect to our database
 
 // Handle the connection event
 var db = mongoose.connection;
